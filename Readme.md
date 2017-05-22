@@ -30,6 +30,8 @@ Eases the need for boilerplate in your view models when using [reactiveui](https
 
 This is tedious since all you'd like to do is declare properties as normal:
 
+    using ReactiveUI.Fody.Helpers;
+    ...
     [Reactive]public string SearchId { get; set; }
     
 If a property is annotated with the `[Reactive]` attribute, the plugin will weave the boilerplate into your 
